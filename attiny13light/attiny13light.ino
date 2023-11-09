@@ -30,6 +30,19 @@
 //        return 0;
 //}
 
+// ATMEL ATTINY / ARDUINO
+//
+//                           +=._.=+
+//  D5/A0/Reset/ADC0/PB5   1=|     |=8  VCC
+//  D3/A3/XTAL1/ADC3/PB3~  2=|     |=7  PB2/SCL/SCK/D2(A1)
+//  D4/A2/XTAL2/ADC2/PB4~  3=|     |=6  PB1~/MISO/D1
+//                    Gnd  4=`-----'=5  PB0~/MOSI/SDA/AREF/D0
+// "~" - PWM pins
+// Attiny13: Has PWM only on PB0 and PB1
+//           No AREF
+//           PB3 and PB4 - the same timer
+
+
 #include <Arduino.h>
 
 //#define DEBUG_SERIAL_PLOTTER

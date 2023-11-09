@@ -19,13 +19,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74869298-e40a-4301-9d45-9036efe8b944" name="Changes" comment="Almost done">
-      <change afterPath="$PROJECT_DIR$/UltrasonicSensorExample/UltrasonicSensorExample.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UltrasonicSensorExample/UltrasonicSensorExample2.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/attiny13light/attiny13light.ino" afterDir="false" />
+    <list default="true" id="74869298-e40a-4301-9d45-9036efe8b944" name="Changes" comment="Sketch for attiny13 added.&#10;Verified and tested on atmega328p and attiny13a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kitchen_lights_arduino_sketch.ino" beforeDir="false" afterPath="$PROJECT_DIR$/kitchen_lights_arduino_sketch.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attiny13light/attiny13light.ino" beforeDir="false" afterPath="$PROJECT_DIR$/attiny13light/attiny13light.ino" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,21 +51,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="CMake Application.kitchenLightsArduinoSketch">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="kitchenLightsArduinoSketch-burn" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kitchenLightsArduinoSketch" TARGET_NAME="kitchenLightsArduinoSketch-burn" CONFIG_NAME="Debug">
@@ -125,7 +121,8 @@
       <workItem from="1699301099721" duration="16576000" />
       <workItem from="1699348498342" duration="600000" />
       <workItem from="1699355115194" duration="11154000" />
-      <workItem from="1699440524264" duration="31987000" />
+      <workItem from="1699440524264" duration="32321000" />
+      <workItem from="1699521810821" duration="1754000" />
     </task>
     <task id="LOCAL-00001" summary="Almost done">
       <created>1699319903781</created>
@@ -134,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699319903781</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sketch for attiny13 added.&#10;Verified and tested on atmega328p and attiny13a">
+      <created>1699492766321</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699492766321</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +158,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Almost done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost done" />
+    <MESSAGE value="Sketch for attiny13 added.&#10;Verified and tested on atmega328p and attiny13a" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sketch for attiny13 added.&#10;Verified and tested on atmega328p and attiny13a" />
   </component>
 </project>
