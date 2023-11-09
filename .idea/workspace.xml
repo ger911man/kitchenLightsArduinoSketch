@@ -19,9 +19,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74869298-e40a-4301-9d45-9036efe8b944" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/kitchenLightsArduinoSketch.iml" beforeDir="false" />
+    <list default="true" id="74869298-e40a-4301-9d45-9036efe8b944" name="Changes" comment="Almost done">
+      <change afterPath="$PROJECT_DIR$/UltrasonicSensorExample/UltrasonicSensorExample.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UltrasonicSensorExample/UltrasonicSensorExample2.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attiny13light/attiny13light.ino" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kitchen_lights_arduino_sketch.ino" beforeDir="false" afterPath="$PROJECT_DIR$/kitchen_lights_arduino_sketch.ino" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,21 +48,30 @@
     <option name="minorVersion" value="1.3" />
   </component>
   <component name="ProjectId" id="2XizWyoV9YK64rup9vAi0AGQNQ5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="CMake Application.kitchenLightsArduinoSketch">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="kitchenLightsArduinoSketch-burn" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kitchenLightsArduinoSketch" TARGET_NAME="kitchenLightsArduinoSketch-burn" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -110,8 +122,19 @@
       <workItem from="1699126727113" duration="3786000" />
       <workItem from="1699133974241" duration="3020000" />
       <workItem from="1699283631317" duration="7017000" />
-      <workItem from="1699301099721" duration="16431000" />
+      <workItem from="1699301099721" duration="16576000" />
+      <workItem from="1699348498342" duration="600000" />
+      <workItem from="1699355115194" duration="11154000" />
+      <workItem from="1699440524264" duration="31987000" />
     </task>
+    <task id="LOCAL-00001" summary="Almost done">
+      <created>1699319903781</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699319903781</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,5 +150,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Almost done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost done" />
   </component>
 </project>

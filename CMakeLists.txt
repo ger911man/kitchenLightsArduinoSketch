@@ -15,10 +15,13 @@ project(${PROJECT_NAME})
 # set(${PROJECT_NAME}_LIBS)
 
 ### Main sketch file
-set(${PROJECT_NAME}_SKETCH kitchen_lights_arduino_sketch.ino)
+# set(${PROJECT_NAME}_SKETCH kitchen_lights_arduino_sketch.ino)
+set(${PROJECT_NAME}_SKETCH attiny13light/attiny13light.ino)
+# set(${PROJECT_NAME}_SKETCH UltrasonicSensorExample/UltrasonicSensorExample.ino)
+
 
 ### Add project directories into the build
-# add_subdirectory()
+#add_subdirectory(${PROJECT_SOURCE_DIR}/attiny13light/)
 
 ### Additional settings to add non-standard or your own Arduino libraries.
 # For this example (libs will contain additional arduino libraries)
